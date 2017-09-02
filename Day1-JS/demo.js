@@ -37,6 +37,9 @@ console.log('student name: ' + student.name);
 // array - array indices are zero based
 var numbers = [2, 4, 5, 6];
 console.log('First number in array is ' + numbers[0]);
+// array - misex array declaration
+var mixedBag = [1, 'nilesh', {name: 'nilesh'}];
+console.log('Mixed array: ' + mixedBag);
 // array of objects
 var students = [ { name: 'nilesh', rollNum: 1 },
 { name: 'rajan', rollNum: 2 },
