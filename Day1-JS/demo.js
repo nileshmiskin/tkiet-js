@@ -37,7 +37,7 @@ console.log('student name: ' + student.name);
 // array - array indices are zero based
 var numbers = [2, 4, 5, 6];
 console.log('First number in array is ' + numbers[0]);
-// array - misex array declaration
+// array - mixed array declaration
 var mixedBag = [1, 'nilesh', {name: 'nilesh'}];
 console.log('Mixed array: ' + mixedBag);
 // array of objects
@@ -57,3 +57,4 @@ setTimeout(function(){
     console.log('Though I appear first in code, I am inside a callback.'); 
 }, 3000);
 console.log('I am second one but I get printed first');
+
