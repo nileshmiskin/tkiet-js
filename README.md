@@ -1,5 +1,5 @@
 # JS and AgularJS from the ground up
-Artefacts from JS and Angular workshop
+Artefacts from JS and Angular workshop conducted on 2,3,4th Sept, 2017
 
 ###
 Environment setup
