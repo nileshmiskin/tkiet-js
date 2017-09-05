@@ -1,0 +1,15 @@
+<h2>Cars</h2>
+
+<app-selected-car [selectedCar]="selectedCar"></app-selected-car>
+
+<div>
+  <input type="text" value="" #newCar>
+  <button (click)="addCar(newCar.value)">Add car</button>
+</div>
+<div>
+  <ul>
+    <li *ngFor="let name of names">
+      <span [class]=" name === selectedCar ? 'selected' : '' " (click)="selectCar(name)">{{name | camelcase}}</span>
+    </li>
+  </ul>
+</div>
